@@ -49,7 +49,8 @@ class WhatsAppViewModel implements \Magento\Framework\View\Element\Block\Argumen
      */
     public function getPhone()
     {
-        return $this->_scopeConfig->getValue('whatsapp/whats_config/phone', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+        // return $this->_scopeConfig->getValue('whatsapp/whats_config/phone', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+        return '0349085518';
     }
     
     /**
